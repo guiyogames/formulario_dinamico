@@ -14,52 +14,49 @@ var label_mensaje = document.getElementById("label_mensaje");
 
 //Botones de acción//
 
-
 var button_blue = document.getElementById("start");
 var button_retro = document.getElementById("retro");
 var button_neon = document.getElementById("neon");
 
 //Boton con los etilos principales//
 
-button_blue.addEventListener("click", function(){
-
-    label_nombre.style.color = "white";
-    label_apellidos.style.color = "white";
-    label_edad.style.color = "white";
-    label_mensaje.style.color = "white";
-    envio.style.color = "white";
-    form.style.background = "#43439d";
-    form.style.borderRadius = "20px";
-    form.style.borderStyle = "solid";
-    form.style.borderWidth = "1px";
-    form.style.borderColor = "wheat";
-    nombre.style.borderRadius = "20px";
-    nombre.style.borderStyle = "solid";
-    nombre.style.borderWidth = "1px";
-    nombre.style.borderColor = "wheat";
-    nombre.style.background ="white";
-    apellidos.style.borderRadius = "20px";
-    apellidos.style.borderStyle = "solid";
-    apellidos.style.borderWidth = "1px";
-    apellidos.style.borderColor = "wheat";
-    apellidos.style.background ="white";
-    edad.style.borderRadius = "20px";
-    edad.style.borderStyle = "solid";
-    edad.style.borderWidth = "1px";
-    edad.style.borderColor = "wheat";
-    edad.style.background ="white";
-    texto.style.borderRadius = "20px";
-    texto.style.borderStyle = "solid";
-    texto.style.borderWidth = "1px";
-    texto.style.borderColor = "wheat";
-    texto.style.background ="white";
-    envio.style.borderRadius = "20px";
-    envio.style.borderStyle = "solid";
-    envio.style.borderWidth = "1px";
-    envio.style.borderColor = "wheat";
-    envio.style.background = "#3a599c";
-
-  });
+button_blue.addEventListener("click", function () {
+  label_nombre.style.color = "white";
+  label_apellidos.style.color = "white";
+  label_edad.style.color = "white";
+  label_mensaje.style.color = "white";
+  envio.style.color = "white";
+  form.style.background = "#43439d";
+  form.style.borderRadius = "20px";
+  form.style.borderStyle = "solid";
+  form.style.borderWidth = "1px";
+  form.style.borderColor = "wheat";
+  nombre.style.borderRadius = "20px";
+  nombre.style.borderStyle = "solid";
+  nombre.style.borderWidth = "1px";
+  nombre.style.borderColor = "wheat";
+  nombre.style.background = "white";
+  apellidos.style.borderRadius = "20px";
+  apellidos.style.borderStyle = "solid";
+  apellidos.style.borderWidth = "1px";
+  apellidos.style.borderColor = "wheat";
+  apellidos.style.background = "white";
+  edad.style.borderRadius = "20px";
+  edad.style.borderStyle = "solid";
+  edad.style.borderWidth = "1px";
+  edad.style.borderColor = "wheat";
+  edad.style.background = "white";
+  texto.style.borderRadius = "20px";
+  texto.style.borderStyle = "solid";
+  texto.style.borderWidth = "1px";
+  texto.style.borderColor = "wheat";
+  texto.style.background = "white";
+  envio.style.borderRadius = "20px";
+  envio.style.borderStyle = "solid";
+  envio.style.borderWidth = "1px";
+  envio.style.borderColor = "wheat";
+  envio.style.background = "#3a599c";
+});
 
 //Boton en función click para retro//
 button_retro.addEventListener("click", function () {
@@ -72,50 +69,46 @@ button_retro.addEventListener("click", function () {
   form.style.border = "2px solid black";
   nombre.style.border = "2px solid black";
   nombre.style.borderRadius = "0px";
-  nombre.style.background ="white";
+  nombre.style.background = "white";
   apellidos.style.border = "2px solid black";
   apellidos.style.borderRadius = "0px";
-  apellidos.style.background ="white";
+  apellidos.style.background = "white";
   edad.style.border = "2px solid black";
   edad.style.borderRadius = "0px";
-  edad.style.background ="white";
+  edad.style.background = "white";
   texto.style.border = "2px solid black";
   texto.style.borderRadius = "0px";
-  texto.style.background ="white";
+  texto.style.background = "white";
   envio.style.border = "2px solid black";
   envio.style.borderRadius = "0px";
   envio.style.background = "#ccc";
   envio.style.color = "black";
-  
 });
 
 //Tercer boton Neon//
 
-button_neon.addEventListener("click", function(){
-
-    label_nombre.style.color = "yellow";
-    label_apellidos.style.color = "yellow";
-    label_edad.style.color = "yellow";
-    label_mensaje.style.color = "yellow";
-    form.style.background = "black";
-    form.style.borderRadius = "20px";
-    form.style.border = "2px solid black";
-    nombre.style.border = "2px solid black";
-    nombre.style.borderRadius = "20px";
-    nombre.style.background="#f6e82a";
-    apellidos.style.border = "2px solid black";
-    apellidos.style.borderRadius = "20px";
-    apellidos.style.background="#f6e82a";
-    edad.style.border = "2px solid black";
-    edad.style.borderRadius = "20px";
-    edad.style.background="#f6e82a";
-    texto.style.border = "2px solid black";
-    texto.style.borderRadius = "20px";
-    texto.style.background="#f6e82a";
-    envio.style.border = "2px solid black";
-    envio.style.borderRadius = "20px";
-    envio.style.background = "yellow";
-    envio.style.color = "black";
-    
+button_neon.addEventListener("click", function () {
+  label_nombre.style.color = "yellow";
+  label_apellidos.style.color = "yellow";
+  label_edad.style.color = "yellow";
+  label_mensaje.style.color = "yellow";
+  form.style.background = "black";
+  form.style.borderRadius = "20px";
+  form.style.border = "2px solid black";
+  nombre.style.border = "2px solid black";
+  nombre.style.borderRadius = "20px";
+  nombre.style.background = "#f6e82a";
+  apellidos.style.border = "2px solid black";
+  apellidos.style.borderRadius = "20px";
+  apellidos.style.background = "#f6e82a";
+  edad.style.border = "2px solid black";
+  edad.style.borderRadius = "20px";
+  edad.style.background = "#f6e82a";
+  texto.style.border = "2px solid black";
+  texto.style.borderRadius = "20px";
+  texto.style.background = "#f6e82a";
+  envio.style.border = "2px solid black";
+  envio.style.borderRadius = "20px";
+  envio.style.background = "yellow";
+  envio.style.color = "black";
 });
-
