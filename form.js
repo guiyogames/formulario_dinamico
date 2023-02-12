@@ -15,13 +15,13 @@ var label_mensaje = document.getElementById("label_mensaje");
 //Botones de acción//
 
 
-var button_start = document.getElementById("start");
-var button = document.getElementById("retro");
+var button_blue = document.getElementById("start");
+var button_retro = document.getElementById("retro");
 var button_neon = document.getElementById("neon");
 
 //Boton con los etilos principales//
 
-button_start.addEventListener("click", function(){
+button_blue.addEventListener("click", function(){
 
     label_nombre.style.color = "white";
     label_apellidos.style.color = "white";
@@ -62,7 +62,7 @@ button_start.addEventListener("click", function(){
   });
 
 //Boton en función click para retro//
-button.addEventListener("click", function () {
+button_retro.addEventListener("click", function () {
   label_nombre.style.color = "black";
   label_apellidos.style.color = "black";
   label_edad.style.color = "black";
