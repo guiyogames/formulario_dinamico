@@ -1,0 +1,1 @@
+ <input onclick="window.location.href = 'https://website.com/my-account';" type="submit" value="Submit request" />
