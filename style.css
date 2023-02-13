@@ -8,10 +8,11 @@ h1 {
   text-align: center;
   margin-top: 20px;
   margin-bottom: 20px;
+  color: white;
 }
 
 body {
-  background-color: #ccc;
+  background-color: #6b3cc17f;
 }
 
 /* Formulario */
